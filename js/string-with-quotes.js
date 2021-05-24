@@ -14,6 +14,7 @@ elTitle.textContent = title;
 // Get the element with and id of note.
 var elNote = document.getElementById('note');
 // Replace the content of this element.
+elNote.innerHTML = message;
 
 /*
 Note: textContent does not work in IE8 or earlier - see explanation on website
