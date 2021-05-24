@@ -12,7 +12,7 @@ var elName = document.getElementById('name');
 elName.textContent = username;
 
 // Get the element with an ID of note.
-var elNote = document.getElementByID('note');
+var elNote = document.getElementById('note');
 elNote.textContent = message;
 
 // Note: textContent does not work in IE8 or earlier - see explanation on website
