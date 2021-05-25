@@ -1,5 +1,5 @@
 // Store the greeting in a variable
-var greeting = 'Howdy';
+var greeting = 'Howdy ';
 
 // Store the users name in a variable
 var name = 'Molly';
