@@ -8,7 +8,7 @@ hotel.checkAvailability = function() {
     return this.rooms - this.booked;
 };
 
-var elRooms = document.getElementById('hotelName'); // Get element 
+var elName = document.getElementById('hotelName'); // Get element 
 elName.textContent = hotel.name;                    // Update HTML with property of the object
 
 var elRooms = document.getElementById('rooms');     // Get element
